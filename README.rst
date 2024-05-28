@@ -1,18 +1,7 @@
-Title
+Product tag code
 ===============================
-Description
+Questo modulo aggiunge il campo "code" e la voce di menu "configurazioni" => Tag
 
-Configuration
-=============
-
-Usage
-=====
-Description usage
-
-
-Dependencies
-=====
-Description usage
 
 
 Credits
@@ -26,4 +15,4 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* Moccia Francesco <moccia.f@stesi.consulting>
+* Michele <dicroce.m@stesi.consulting>

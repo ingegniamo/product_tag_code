@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "",
+    'name': "Product tag code",
     
     'summary': "",
   
@@ -15,10 +15,10 @@
     'website': "http://www.stesi.consulting",
 
     # any module necessary for this one to work correctly
-    'depends': [],
+    'depends': ['product'],
     
     # always loaded
-    'data': [],
+    'data': ['views/product_tag.xml'],
 
     'application': False,
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- model.name inherit form view -->
+    <record id="pt_tree" model="ir.ui.view">
+        <field name="name">product.tag.inherit.view.tree</field>
+        <field name="model">product.tag</field>
+        <field name="inherit_id" ref="product.product_tag_tree_view"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="code"/>
+                </field>
+            <!-- Add your xpath here -->
+            
+        </field>
+    </record>
+    <record id="pt_form" model="ir.ui.view">
+        <field name="name">product.tag.inherit.view.form</field>
+        <field name="model">product.tag</field>
+        <field name="inherit_id" ref="product.product_tag_form_view"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="code"/>
+                </field>
+            <!-- Add your xpath here -->
+            
+        </field>
+    </record>
+
+    <menuitem id="product_tag_mi" parent="stock.menu_stock_config_settings" name="Product tag" action="product.product_tag_action" />
+</odoo>
